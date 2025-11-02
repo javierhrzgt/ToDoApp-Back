@@ -1,0 +1,26 @@
+GET http://localhost:3000/api/notes
+
+###
+
+GET http://localhost:3000/api/notes/6906b5ee434e60feaaae7866
+
+###
+
+POST http://localhost:3000/api/notes
+Content-Type: application/json
+
+{
+    "title":"Nota numero 2",
+    "description":"Description de la nota numero 2"
+}
+
+####
+DELETE http://localhost:3000/api/notes/6906b5ee434e60feaaae7866
+
+###
+PUT http://localhost:3000/api/notes/6906b407007c9a2164a36c51
+Content-Type: application/json
+
+{
+    "title":"Nota actualizada"
+}
